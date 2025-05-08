@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | SiteSnap</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+  <header class="bg-black border-b border-gray-700">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">SiteSnap</h1>
+      <nav>
+        <a href="index.html" class="px-4 py-2 hover:text-red-400">Home</a>
+        <a href="about.html" class="px-4 py-2 hover:text-red-400">About</a>
+        <a href="services.html" class="px-4 py-2 hover:text-red-400">Services</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="py-20 px-4 max-w-xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">Get in Touch</h2>
+    <p class="text-lg text-gray-300 mb-6">Send us a message — we'll respond within 24 hours.</p>
+
+    <form action="https://formspree.io/f/xldbnwpy" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 bg-gray-900 border border-gray-600 rounded text-white">
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 bg-gray-900 border border-gray-600 rounded text-white">
+      <textarea name="message" rows="5" placeholder="Your Message" required class="w-full p-3 bg-gray-900 border border-gray-600 rounded text-white"></textarea>
+      <button type="submit" class="bg-red-600 text-white px-6 py-3 rounded-full hover:bg-red-700">Send</button>
+    </form>
+
+    <p class="text-sm text-gray-500 mt-4">Messages will be sent to eliah.gutierrez07@gmail.com and walkermbeck@gmail.com</p>
+  </section>
+
+  <footer class="bg-black text-center py-6 border-t border-gray-700">
+    <p class="text-gray-400">&copy; 2025 SiteSnap. Built for local businesses.</p>
+  </footer>
+</body>
+</html>
